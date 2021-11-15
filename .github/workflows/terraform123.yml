@@ -16,8 +16,10 @@ jobs:
     defaults:
       run:
         shell: bash
-   steps:
-    # Generates an execution plan for Terraform
+        
+        
+ steps:
+  # Generates an execution plan for Terraform
     - name: Create file
       run: echo 'my test runner' >> abc.txt
 
