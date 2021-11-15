@@ -16,7 +16,6 @@ jobs:
     defaults:
       run:
         shell: bash
-
    steps:
     # Generates an execution plan for Terraform
     - name: Create file
